@@ -6,6 +6,8 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Communication
 
+http:
+
 frontend:
 
 notify: !include_dir_list notifiers
