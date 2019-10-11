@@ -10,4 +10,6 @@ http:
 
 frontend:
 
+view_event:
+
 notify: !include_dir_list notifiers
