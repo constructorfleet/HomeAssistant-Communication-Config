@@ -15,11 +15,14 @@ homeassistant:
     - type: homeassistant
 
 view_event:
+  name: communication
   components:
-    - camera
-    - media_player
-    - device_tracker
-    - person
+    - ios
+    - html5
+
+ios:
+  push:
+    categories: !include_dir_list ios_push_categories
 
 http:
   base_url: https://automation.prettybaked.com
