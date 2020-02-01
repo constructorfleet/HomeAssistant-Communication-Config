@@ -14,15 +14,15 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event:
-  name: communication
-  components:
-    - ios
-    - html5
+# view_event:
+#   name: communication
+#   components:
+#     - ios
+#     - html5
 
-ios:
-  push:
-    categories: !include_dir_list ios_push_categories
+# ios:
+#   push:
+#     categories: !include_dir_list ios_push_categories
 
 http:
   base_url: https://automation.prettybaked.com
