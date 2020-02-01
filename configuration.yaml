@@ -33,3 +33,6 @@ frontend:
 config:
 
 notify: !include_dir_list notifiers
+
+mqtt: !include mqtt.yaml
+mqtteventstream: !include eventstream.yaml
