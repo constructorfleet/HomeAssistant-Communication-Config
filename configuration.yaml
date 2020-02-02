@@ -25,8 +25,6 @@ homeassistant:
 #     categories: !include_dir_list ios_push_categories
 
 http:
-  base_url: https://automation.prettybaked.com
-  server_port: !secret communication_server_public_port
   
 frontend:
 
@@ -35,5 +33,5 @@ config:
 notify: !include_dir_list notifiers
 
 mqtt: !include mqtt.yaml
-# mqtteventstream: !include eventstream.yaml
-mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
+mqtteventstream: !include eventstream.yaml
+# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
