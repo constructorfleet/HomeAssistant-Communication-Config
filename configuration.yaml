@@ -25,7 +25,6 @@ homeassistant:
 #     categories: !include_dir_list ios_push_categories
 
 http:
-  base_url: http://communication.constructorfleet.iot
   
 frontend:
 
