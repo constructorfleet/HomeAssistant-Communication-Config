@@ -1,3 +1,4 @@
+name: communication
 publish_topic: events/slaves/communication
 subscribe_topic: events/master
 ignore_event:
