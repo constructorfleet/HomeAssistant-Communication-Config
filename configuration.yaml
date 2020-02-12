@@ -25,7 +25,7 @@ homeassistant:
 #     categories: !include_dir_list ios_push_categories
 
 http:
-  base_url: http://appliances.constructorfleet.iot
+  base_url: https://communication.automation.home.prettybaked.com
   
 frontend:
 
