@@ -1,0 +1,3 @@
+name: Twilio Voice
+platform: twilio_call
+from_number: !secret twilio_voice_from_number

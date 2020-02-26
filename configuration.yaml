@@ -32,6 +32,7 @@ frontend:
 config:
 
 notify: !include_dir_list notifiers
+twilio: !include twilio.yaml
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
