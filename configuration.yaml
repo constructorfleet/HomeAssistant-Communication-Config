@@ -14,11 +14,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-# view_event:
-#   name: communication
-#   components:
-#     - ios
-#     - html5
+view_event: !include view_event.yaml
 
 # ios:
 #   push:
@@ -36,4 +32,3 @@ twilio: !include twilio.yaml
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
-# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
