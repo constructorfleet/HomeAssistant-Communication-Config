@@ -14,7 +14,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event: !include view_event.yaml
+# view_event: !include view_event.yaml
 
 # ios:
 #   push:
